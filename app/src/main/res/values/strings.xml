@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FlendzzTask</string>
+    <string name="no_internet">No Internet</string>
+    <string name="internet_text1">It seems your internet connection is poor.</string>
+    <string name="internet_text2">Please try again later</string>
+    <string name="internet_text3">Try Again</string>
+    <string name="request_again">Request again</string>
+    <string name="EmployeeDetail">Employee Detail</string>
+    <string name="Employeeid">Employee id:</string>
+    <string name="name">Name:</string>
+    <string name="Email">Email:</string>
+    <string name="Address">Address:</string>
+    <string name="Phone">Phone Number:</string>
+    <string name="Business">Business Details:</string>
+    <string name="BusinessName">Business Name:</string>
+    <string name="BusinessAddress">Business Address:</string>
+</resources>

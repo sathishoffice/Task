@@ -1,0 +1,31 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/firstlayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.project.FlendzzTask.EmployeeList">
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:text="Employee List"
+        android:textColor="@color/black"
+        android:background="#C5BDBD"
+        android:paddingStart="16dp"
+        android:textSize="20sp"
+        android:gravity="start|center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/employeelist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+       android:layout_marginTop="64dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
