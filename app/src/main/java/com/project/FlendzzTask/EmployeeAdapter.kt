@@ -39,7 +39,7 @@ class EmployeeAdapter(var context: Context,
 
         holder.email.setOnClickListener {
             listener(
-                employee[position].userMobileNumber.toString(),
+                "email"
             )
         }
     }
