@@ -1,5 +1,6 @@
 package com.project.FlendzzTask
 
+
 import com.google.gson.JsonObject
 import com.project.newtask.BuildConfig
 import okhttp3.OkHttpClient
@@ -13,6 +14,7 @@ import java.util.concurrent.TimeUnit
 
 interface ApiInterface {
 
+    //comment
     @POST("serviceDetails.php")
     fun list(@Header("Authorization") token: String,
              @Body params: JsonObject
