@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit
 
 interface ApiInterface {
 
-    //Sathish
+    //Sathishkumar
     @POST("serviceDetails.php")
     fun list(@Header("Authorization") token: String,
              @Body params: JsonObject
